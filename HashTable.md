@@ -10,5 +10,20 @@
   </ul>
 </li>
 <li>In a hash table the data itself dictates or gies us clue on where the data is going to be stored and where we can find the data for easy look up. Eg.. A hash function would create would indicate where the valeu can be stored</li>
-<li><i><b>Disadvantage of hash table :-</b><i>We should not use has table for sorting or ordering data. If used for sorting or ordering then insertion, deletion and lookup becomes close to <b>O(n)</b></li>
+<li><i><b>Disadvantage of hash table :- </b></i>We should not use has table for sorting or ordering data.
+<ul>
+  <li>If used for sorting or ordering then insertion, deletion and lookup becomes close to <b>O(n)</b>.</li>
+  <li>Never use the hash table if the data stored needs to sorted.</li>
+</ul>
+</li>
+</ol>
+<br/>
+<br/>
+<ol>
+<li>A Hashtable basically work with the combination of these two things..</li>
+  <ol>
+    <li><b><i>Hash Function :- </i></b>Returns a non-negative integer value call hash code.</li>
+    <li><b><i>An Array :- </i></b>Which is capable of storing the data.</li>
+  </ol>
+<li>The idea is that we pass our data to the hash function and it returns a hash code. Then store the data into the array with the key represented by the hash code that was generated.</li>  
 </ol>
