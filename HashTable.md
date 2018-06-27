@@ -26,6 +26,7 @@
     <li><b><i>Hash Function :- </i></b>Returns a non-negative integer value call hash code.</li>
     <li><b><i>An Array :- </i></b>Which is capable of storing the data.</li>
   </ol>
-<li>The idea is that we pass our data to the hash function and it returns a hash code. Then store the data into the array with the key represented by the hash code that was generated.</li>  
+<li>The idea is that we pass our data to the hash function and it returns a hash code. Then store the data into the array with the key represented by the hash code that was generated.</li>
 </ol>
-![Image1](https://github.com/nchandar/InterviewNotes/blob/master/Untitled%20Diagram.jpg)
+
+![ImageOne](https://github.com/nchandar/InterviewNotes/blob/master/hashTableFigure1.png)
