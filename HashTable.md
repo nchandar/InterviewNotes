@@ -30,3 +30,20 @@
 </ol>
 
 ![ImageOne](https://github.com/nchandar/InterviewNotes/blob/master/HtFig1.jpg)
+
+### Here's an example of a simple hash function
+```javascript
+
+function hashFunction(str) {
+  var sum = 0, i;
+  var strLength = str.length;
+  console.log(strLength)
+  for (i = 0; i < strLength; i++) {
+    sum += str.charCodeAt(i); // charCodeAt(i) gets the ASCII value of the letter in i'th position
+  }
+  console.log(sum);
+  return sum % 10;  //10 is max size of the array in which the data is stored.
+}
+
+console.log(hashFunction("Paul"));
+```
