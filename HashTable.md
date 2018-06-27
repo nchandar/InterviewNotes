@@ -29,4 +29,4 @@
 <li>The idea is that we pass our data to the hash function and it returns a hash code. Then store the data into the array with the key represented by the hash code that was generated.</li>
 </ol>
 
-![ImageOne](https://github.com/nchandar/InterviewNotes/blob/master/hashTableFigure1.png)
+![ImageOne](https://github.com/nchandar/InterviewNotes/blob/master/HtFig1.jpg)
