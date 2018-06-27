@@ -56,3 +56,8 @@ Collision can be avoided by using these 2 methods
 In this method if there is a collision, we try to place the data in the next position/element in the array.
 
 ![Image2](https://github.com/nchandar/InterviewNotes/blob/master/linearProbingFig.jpg) 
+
+1. If you consider the above example using linear probing, you can already see that the constant time for inserting, deletion and lookup which is O(1) is now changing and in the worst case scenario it could O(n). This problem is called <b>clustering</b>.
+2. We can only store data which equals the size of the array and so the data can never grow and it can only have n elements in the table where n is the size of the array.
+
+#### Chaining
