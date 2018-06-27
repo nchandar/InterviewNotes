@@ -17,7 +17,6 @@
 </ul>
 </li>
 </ol>
-<br/>
 
 ### How Hash Table Works
 <ol>
@@ -45,3 +44,15 @@ function hashFunction(str) {
 
 console.log(hashFunction("Paul"));
 ```
+### Collisions
+When the hashFunction returns the same hash code or key for 2 different values. Then collision is formed.
+Collision can be avoided by using these 2 methods
+<ul>
+  <li><b>Linear Probing</b></li>
+  <li><b>Chaining</b></li>
+</ul>
+
+#### Linear Probing
+In this method if there is a collision, we try to place the data in the next position/element in the array.
+
+![Image2](https://github.com/nchandar/InterviewNotes/blob/master/linearProbingFig.jpg) 
