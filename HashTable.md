@@ -18,8 +18,8 @@
 </li>
 </ol>
 <br/>
-<br/>
-## How Hash Table Works
+
+### How Hash Table Works
 <ol>
 <li>A Hashtable basically work with the combination of these two things..</li>
   <ol>
@@ -28,3 +28,4 @@
   </ol>
 <li>The idea is that we pass our data to the hash function and it returns a hash code. Then store the data into the array with the key represented by the hash code that was generated.</li>  
 </ol>
+![Image1](https://github.com/nchandar/InterviewNotes/blob/master/Untitled%20Diagram.jpg)
