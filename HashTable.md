@@ -9,4 +9,6 @@
     <li>Disadvantage of using a linked list - It is harder to traverse/lookup a specific value in a linked list when the size of the linked list gets bigger.</li>
   </ul>
 </li>
+<li>In a hash table the data itself dictates or gies us clue on where the data is going to be stored and where we can find the data for easy look up. Eg.. A hash function would create would indicate where the valeu can be stored</li>
+<li><i><b>Disadvantage of hash table :-</b><i>We should not use has table for sorting or ordering data. If used for sorting or ordering then insertion, deletion and lookup becomes close to <b>O(n)</b></li>
 </ol>
