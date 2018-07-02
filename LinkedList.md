@@ -26,3 +26,9 @@ A linked list basically consists of multiple nodes and a node basically has Data
 
 <b>Head :- </b> The beginning of the chain is called the head. </br>
 <b>Null :- </b> The end of the chain is indicated by a null.
+
+  - <b>length Method</b> retrieves the number of nodes in a list.
+  - <b>head Method</b> assigns a node as the head of a list.
+  - <b>add(value) Method</b> adds a node to a list.
+  - <b>searchNodeAt(position) Method</b> searches for a node at n-position in our list.
+  - <b>remove(position) Method</b> removes a node from a list.
